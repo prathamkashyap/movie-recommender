@@ -37,7 +37,7 @@ with gzip.open("similarity.pkl.gz", "rb") as f:
 st.title('Movie Recommender System')
 
 selected_movie_name = st.selectbox(
-  'How would you like to be contacted?',
+  'Which movie\'s recommendation do you need?',
   movies['title'].values)
 
 if st.button('Recommend'):
