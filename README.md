@@ -12,13 +12,13 @@ Recommendation systems are a collection of algorithms used to recommend items to
 
 To follow along with this project, it's ideal to have the following library imported into a notebook in an IDE. We are using the Jupyter Notebook for this project, but any IDE would suffice. All we need is Pandas and a good knowledge of matrix-Algebra.
 
-import pandas as pd
+```import pandas as pd```
 
 
 ## **Project Structure**
 
 ### **Data Acquisition**
-We shall use a public data set for movie ratings from Kaggle.com. The tmdb_5000_credits.csv and tmdb_5000_movies.csv data sets are available for your use in the root directory of this repo.
+We shall use a public data set for movie ratings from K[Kaggle.com](https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata). The `tmdb_5000_credits.csv` and `tmdb_5000_movies.csv` data sets are available for your use in the root directory of this repo.
 
 ### **Data Cleaning and Pre-processing**
 A summary of the tasks in this phase include:
