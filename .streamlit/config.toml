@@ -1,0 +1,19 @@
+[theme]
+base = "dark"
+primaryColor = "#F2B36C"
+backgroundColor = "#130E14"
+secondaryBackgroundColor = "#211720"
+textColor = "#F7ECDE"
+linkColor = "#F2B36C"
+font = "sans serif"
+borderColor = "#483644"
+showWidgetBorder = true
+
+[server]
+enableStaticServing = true
+
+[client]
+toolbarMode = "minimal"
+
+[browser]
+gatherUsageStats = false
